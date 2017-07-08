@@ -1,0 +1,21 @@
+{
+  "name": "demo4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production",
+    "lintjs": "eslint app/ webpack.*.js --cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
